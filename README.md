@@ -1,7 +1,7 @@
   # kossi-ZANGBE
 Université de Tours-Centre d'Études Supérieures de la Renaissance
 
-Étudiant en Humanités Numériques – Informatique
+Étudiant en **Humanités Numériques – Informatique**
 
 Création de sites web, programmation, modélisation et bases de données
 
@@ -17,11 +17,11 @@ Création de sites web, programmation, modélisation et bases de données
  
   # Projets
     
-  # Projet1:  Encodage TEI:
+  ### Projet1:  Encodage TEI:
      
-      Objectif :Encoder le texte Tartuffe de Molière
+  **Objectif** :Encoder le texte Tartuffe de Molière
       
-      Problématique :
+  **Problématique** :
        
      -Encoder les métadonnées
      
@@ -34,7 +34,7 @@ Création de sites web, programmation, modélisation et bases de données
 
 
      
-   # Projet2: Site Cuisine-HTML/CSS 
+   ### Projet2: Site Cuisine-HTML/CSS 
 
       Objectif : Création d’un site web sur un thème libre.
       
@@ -44,10 +44,11 @@ Création de sites web, programmation, modélisation et bases de données
         avec Phoenix Code ou Visual Studio Code.
       
       https://github.com/kossi-ctrl/site_cuisine_project
-    
+  **Lien vers le dépôt :**  
+https://github.com/kossi-ctrl/site_cuisine_project
 
    
-  # Projet3 Site Cuisine – TP JavaScript
+  ### Projet3 Site Cuisine – TP JavaScript
   
       Objectif : Amélioration du site cuisine.
       
@@ -58,7 +59,7 @@ Création de sites web, programmation, modélisation et bases de données
       https://github.com/kossi-ctrl/TPJavaScript_site_cuisine
 
   
-  # Projet4 Ashesi Library
+  ### Projet4 Ashesi Library
   
       Objectif : Création d’une bibliothèque fictive.
     
@@ -69,7 +70,7 @@ Création de sites web, programmation, modélisation et bases de données
       https://github.com/kossi-ctrl/ashesi_library_project
    
 
-  # projet5 TP_musee
+  ### projet5 TP_musee
   
       Objectif : Modélisation et création de bases de données.
       
@@ -84,7 +85,7 @@ Création de sites web, programmation, modélisation et bases de données
       https://github.com/kossi-ctrl/TP_musee
        
      
-  # Projet6 Wired_Viz
+  ### Projet6 Wired_Viz
   
       Objectif : Visualisation de données.
       
@@ -98,9 +99,9 @@ Création de sites web, programmation, modélisation et bases de données
   
   # Contact 
     
-    Email : wisdom77toffa@gmail.com
-    Email universitaire :kossi.zangbe@etu.univ-tours.fr
+  **Email:** wisdom77toffa@gmail.com
+  **Email:** universitaire :kossi.zangbe@etu.univ-tours.fr
 
 
-  © 2026 – Kossi ZANGBE
+  © 2026 – **Kossi ZANGBE**
 
