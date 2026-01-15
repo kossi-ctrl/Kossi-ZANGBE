@@ -2,136 +2,136 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio – Kossi ZANGBE</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-  <h1>Kossi ZANGBE</h1>
-    <p>Université de Tours-Centre d'Études Supérieures de la Renaissance</p> 
-  <p class="subtitle">
-    Étudiant en Humanités Numériques – Informatique
-  </p>
-  <p>
-    Création de sites web, programmation, modélisation et bases de données
-  </p>
-</header>
+  <!-- ===== NAVBAR ===== -->
+  <nav style="
+    background:#2c3e50;
+    padding:15px 20px;
+    position:sticky;
+    top:0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  ">
+    <strong style="color:white">Kossi ZANGBE</strong>
+    <div>
+      <a href="#about" style="color:white;margin-right:15px;">À propos</a>
+      <a href="#skills" style="color:white;margin-right:15px;">Compétences</a>
+      <a href="#projects" style="color:white;margin-right:15px;">Projets</a>
+      <a href="#contact" style="color:white;">Contact</a>
+    </div>
+  </nav>
 
-<main>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <h1>Kossi ZANGBE</h1>
+    <p class="subtitle">
+      Étudiant en Humanités Numériques — Informatique  
+      <br> Université de Tours
+    </p>
+  </header>
 
-  
-  <section>
-    <h2>Compétences</h2>
-    <ul class="skills">
-      <li>HTML / CSS</li>
-      <li>JavaScript</li>
-      <li>Python</li>
-      <li>Git & GitHub</li>
-      <li>XML (TEI / MEI)</li>
-      <li>PostgreSQL / NoSQL</li>
-    </ul>
-  </section>
+  <main>
 
-  
-  <section>
-    <h2>Projets</h2>
-    
-  <article>
-      <h3>Encodage TEI:</h3>
-      <p><strong>Objectif :</strong>Encoder le texte Tartuffe de Molière</p>
+    <!-- ===== À PROPOS ===== -->
+    <section id="about">
+      <h2>À propos</h2>
       <p>
-        <strong>Problématique :</strong>
-        <ul>
-          <li> Encoder les métadonnées</li>
-           <li>Extraction et encodage de texte de base</li>
-           <li> Comparaison et encodage des variantes</li>     
-        </ul>       
+        Étudiant en Humanités Numériques, je m’intéresse à l’analyse de textes,
+        au développement web, à la structuration des données et à leur visualisation.
+        Mes projets combinent souvent programmation, modélisation et culture numérique.
       </p>
-      <a href="https://github.com/kossi-ctrl/Encodage_tartuffe.xml.git" target="_blank">
-        Voir le code
-      </a>
-    </article>
-    
+    </section>
 
-    <article>
-      <h3>Site Cuisine (HTML / CSS)</h3>
-      <p><strong>Objectif :</strong> Création d’un site web sur un thème libre.</p>
-      <p>
-        <strong>Problématique :</strong>
-        Utilisation des langages HTML et CSS pour concevoir un site web statique
-        avec Phoenix Code ou Visual Studio Code.
-      </p>
-      <a href="https://github.com/kossi-ctrl/site_cuisine_project" target="_blank">
-        Voir le code
-      </a>
-    </article>
-
-    <article>
-      <h3>Site Cuisine – TP JavaScript</h3>
-      <p><strong>Objectif :</strong> Amélioration du site cuisine.</p>
-      <p>
-        <strong>Problématique :</strong>
-        Ajout de fonctionnalités JavaScript au site HTML/CSS existant.
-      </p>
-      <a href="https://github.com/kossi-ctrl/TPJavaScript_site_cuisine" target="_blank">
-        Voir le code
-      </a>
-    </article>
-
-    <article>
-      <h3>Ashesi Library</h3>
-      <p><strong>Objectif :</strong> Création d’une bibliothèque fictive.</p>
-      <p>
-        <strong>Problématique :</strong>
-        Exploitation d’un fichier JSON et intégration via JavaScript.
-      </p>
-      <a href="https://github.com/kossi-ctrl/ashesi_library_project" target="_blank">
-        Voir le code
-      </a>
-    </article>
-
-    <article>
-      <h3>TP_musee</h3>
-      <p><strong>Objectif :</strong> Modélisation et création de bases de données.</p>
-      <ul>
-        <li>Analyse de données CSV</li>
-        <li>Proposition de modélisation</li>
-        <li>Export SQL et intégration PostgreSQL</li>
-        <li>Requêtes SQL</li>
+    <!-- ===== COMPÉTENCES ===== -->
+    <section id="skills">
+      <h2>Compétences</h2>
+      <ul class="skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Git & GitHub</li>
+        <li>XML TEI / MEI</li>
+        <li>PostgreSQL</li>
+        <li>SQL</li>
       </ul>
-      <a href="https://github.com/kossi-ctrl/TP_musee" target="_blank">
-        Voir le code
-      </a>
-    </article>
+    </section>
 
-    <article>
-      <h3>Wired_Viz</h3>
-      <p><strong>Objectif :</strong> Visualisation de données.</p>
-      <p>
-        <strong>Problématique :</strong>
-        Manipulation de fichiers JSON et génération dynamique via JavaScript.
-      </p>
-      <a href="https://github.com/kossi-ctrl/Wired_viz" target="_blank">
-        Voir le code
-      </a>
-    </article>
+    <!-- ===== PROJETS ===== -->
+    <section id="projects">
+      <h2>Projets</h2>
 
-  </section>
+      <div class="projects">
 
-  
-  <section>
-    <h2>Contact</h2>
-    <p>Email : <a href="mailto:wisdom77toffa@gmail.com">wisdom77toffa@gmail.com</a></p>
-    <p>Email universitaire : <a href="mailto:kossi.zangbe@etu.univ-tours.fr">kossi.zangbe@etu.univ-tours.fr</a></p>
-  </section>
+        <article>
+          <h3>Encodage TEI — Tartuffe</h3>
+          <p>Encodage du texte de Molière en XML-TEI.</p>
+          <a href="https://github.com/kossi-ctrl/Encodage_tartuffe.xml" target="_blank">
+            Voir le projet
+          </a>
+        </article>
 
-</main>
+        <article>
+          <h3>Site Cuisine (HTML/CSS)</h3>
+          <p>Création d’un site web statique sur la cuisine.</p>
+          <a href="https://github.com/kossi-ctrl/site_cuisine_project" target="_blank">
+            Voir le projet
+          </a>
+        </article>
 
-<footer>
-  <p>© 2026 – Kossi ZANGBE</p>
-</footer>
+        <article>
+          <h3>Site Cuisine (JavaScript)</h3>
+          <p>Ajout de fonctionnalités interactives.</p>
+          <a href="https://github.com/kossi-ctrl/TPJavaScript_site_cuisine" target="_blank">
+            Voir le projet
+          </a>
+        </article>
+
+        <article>
+          <h3>Ashesi Library</h3>
+          <p>Bibliothèque fictive basée sur JSON.</p>
+          <a href="https://github.com/kossi-ctrl/ashesi_library_project" target="_blank">
+            Voir le projet
+          </a>
+        </article>
+
+        <article>
+          <h3>TP Musée (Base de données)</h3>
+          <p>Modélisation et requêtes SQL.</p>
+          <a href="https://github.com/kossi-ctrl/TP_musee" target="_blank">
+            Voir le projet
+          </a>
+        </article>
+
+        <article>
+          <h3>Wired_Viz</h3>
+          <p>Visualisation de données en JavaScript.</p>
+          <a href="https://github.com/kossi-ctrl/Wired_viz" target="_blank">
+            Voir le projet
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>📧 Email personnel : <strong>wisdom77toffa@gmail.com</strong></p>
+      <p>📧 Email universitaire : <strong>kossi.zangbe@etu.univ-tours.fr</strong></p>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 — Kossi ZANGBE
+  </footer>
 
 </body>
 </html>
