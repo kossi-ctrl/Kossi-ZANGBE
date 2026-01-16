@@ -54,7 +54,7 @@ Encoder le texte de *Tartuffe* en TEI.
 🎯 Création d’un site web statique sur un thème libre.  
 
 🔗 Dépôt :  
-👉 https://github.com/kossi-ctrl/site_cuisine_project  
+👉 https://kossi-ctrl.github.io/site_cuisine_project
 
 ---
 
